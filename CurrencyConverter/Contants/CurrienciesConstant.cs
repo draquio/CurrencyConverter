@@ -2,7 +2,7 @@
 
 namespace CurrencyConverter.Contants
 {
-    public class CurrienciesConstant
+    public static class CurrienciesConstant
     {
         public static List<Currency> Currencies = new List<Currency>()
         {

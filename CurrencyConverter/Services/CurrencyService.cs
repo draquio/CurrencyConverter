@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using CurrencyConverter.Contants;
 using CurrencyConverter.DTOs;
 using CurrencyConverter.Entities;
 using CurrencyConverter.Repositories;
@@ -75,6 +76,19 @@ namespace CurrencyConverter.Services
                 response.EnsureSuccessStatusCode();
                 var data = await response.Content.ReadFromJsonAsync<ExchangeRateApiResponse>();
                 return data.Rates;
+            }
+            catch (Exception ex)
+            {
+                throw new ApplicationException(ex.Message);
+            }
+        }
+
+        public List<Currency> GetAllCurrencies()
+        {
+            try
+            {
+                List<Currency> currencies = CurrienciesConstant.Currencies;
+                return currencies;
             }
             catch (Exception ex)
             {

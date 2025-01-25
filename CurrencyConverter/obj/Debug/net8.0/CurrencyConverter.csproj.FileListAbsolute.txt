@@ -171,3 +171,4 @@ E:\Net\CurrencyConverter\CurrencyConverter\obj\Debug\net8.0\refint\CurrencyConve
 E:\Net\CurrencyConverter\CurrencyConverter\obj\Debug\net8.0\CurrencyConverter.pdb
 E:\Net\CurrencyConverter\CurrencyConverter\obj\Debug\net8.0\CurrencyConverter.genruntimeconfig.cache
 E:\Net\CurrencyConverter\CurrencyConverter\obj\Debug\net8.0\ref\CurrencyConverter.dll
+E:\Net\CurrencyConverter\CurrencyConverter\obj\Debug\net8.0\CurrencyConverter.sourcelink.json

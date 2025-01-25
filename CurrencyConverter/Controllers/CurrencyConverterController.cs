@@ -1,4 +1,5 @@
 ﻿using CurrencyConverter.DTOs;
+using CurrencyConverter.Entities;
 using CurrencyConverter.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -23,6 +24,19 @@ namespace CurrencyConverter.Controllers
             {
                 var result = await _currencyService.ConvertCurrency(request);
                 return Ok(result);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+        [HttpGet("getCurrencies")]
+        public async Task<ActionResult<List<Currency>>> GetCurrencies()
+        {
+            try
+            {
+                var result = _currencyService.GetAllCurrencies();
+                return result;
             }
             catch (Exception)
             {
