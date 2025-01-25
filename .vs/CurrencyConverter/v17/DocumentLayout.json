@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Net\\CurrencyConverter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|e:\\net\\currencyconverter\\currencyconverter\\contants\\currienciesconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|solutionrelative:currencyconverter\\contants\\currienciesconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|e:\\net\\currencyconverter\\currencyconverter\\services\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|solutionrelative:currencyconverter\\services\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|e:\\net\\currencyconverter\\currencyconverter\\services\\interfaces\\icurrencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|solutionrelative:currencyconverter\\services\\interfaces\\icurrencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|e:\\net\\currencyconverter\\currencyconverter\\repositories\\currencycacherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|solutionrelative:currencyconverter\\repositories\\currencycacherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|e:\\net\\currencyconverter\\currencyconverter\\repositories\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|solutionrelative:currencyconverter\\repositories\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|e:\\net\\currencyconverter\\currencyconverter\\ioc\\dependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|solutionrelative:currencyconverter\\ioc\\dependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CurrienciesConstant.cs",
+              "DocumentMoniker": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\Contants\\CurrienciesConstant.cs",
+              "RelativeDocumentMoniker": "CurrencyConverter\\Contants\\CurrienciesConstant.cs",
+              "ToolTip": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\Contants\\CurrienciesConstant.cs",
+              "RelativeToolTip": "CurrencyConverter\\Contants\\CurrienciesConstant.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvyQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T04:16:24.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICurrencyService.cs",
+              "DocumentMoniker": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\Services\\Interfaces\\ICurrencyService.cs",
+              "RelativeDocumentMoniker": "CurrencyConverter\\Services\\Interfaces\\ICurrencyService.cs",
+              "ToolTip": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\Services\\Interfaces\\ICurrencyService.cs",
+              "RelativeToolTip": "CurrencyConverter\\Services\\Interfaces\\ICurrencyService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T04:08:37.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CurrencyCacheRepository.cs",
+              "DocumentMoniker": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\Repositories\\CurrencyCacheRepository.cs",
+              "RelativeDocumentMoniker": "CurrencyConverter\\Repositories\\CurrencyCacheRepository.cs",
+              "ToolTip": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\Repositories\\CurrencyCacheRepository.cs",
+              "RelativeToolTip": "CurrencyConverter\\Repositories\\CurrencyCacheRepository.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T03:25:37.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CurrencyService.cs",
+              "DocumentMoniker": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\Services\\CurrencyService.cs",
+              "RelativeDocumentMoniker": "CurrencyConverter\\Services\\CurrencyService.cs",
+              "ToolTip": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\Services\\CurrencyService.cs",
+              "RelativeToolTip": "CurrencyConverter\\Services\\CurrencyService.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAwFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T03:02:45.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LogRepository.cs",
+              "DocumentMoniker": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\Repositories\\LogRepository.cs",
+              "RelativeDocumentMoniker": "CurrencyConverter\\Repositories\\LogRepository.cs",
+              "ToolTip": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\Repositories\\LogRepository.cs",
+              "RelativeToolTip": "CurrencyConverter\\Repositories\\LogRepository.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T03:02:42.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dependencies.cs",
+              "DocumentMoniker": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\IOC\\Dependencies.cs",
+              "RelativeDocumentMoniker": "CurrencyConverter\\IOC\\Dependencies.cs",
+              "ToolTip": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\IOC\\Dependencies.cs",
+              "RelativeToolTip": "CurrencyConverter\\IOC\\Dependencies.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T22:25:52.353Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
