@@ -21,6 +21,7 @@ namespace CurrencyConverter.IOC
 
 
             service.AddScoped<ICurrencyService, CurrencyService>();
+            service.AddScoped<IReportService, ReportService>();
 
             service.AddScoped<ILogRepository, LogRepository>();
             service.AddScoped<ICurrencyCacheRepository, CurrencyCacheRepository>();

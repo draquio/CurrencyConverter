@@ -5,6 +5,6 @@ namespace CurrencyConverter.Repositories.Interfaces
     public interface ILogRepository
     {
         Task AddLog(ConversionLog log);
-        Task<List<ConversionLog>> GetTopConversions(int Ntop);
+        Task<List<TopConversionReport>> GetTopConversions(int Ntop, string range);
     }
 }

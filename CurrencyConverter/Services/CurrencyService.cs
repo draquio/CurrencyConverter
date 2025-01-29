@@ -5,6 +5,7 @@ using CurrencyConverter.Entities;
 using CurrencyConverter.Repositories;
 using CurrencyConverter.Repositories.Interfaces;
 using CurrencyConverter.Services.Interfaces;
+using Microsoft.Extensions.Caching.Distributed;
 
 namespace CurrencyConverter.Services
 {
@@ -14,13 +15,15 @@ namespace CurrencyConverter.Services
         private readonly ILogRepository _logRepository;
         private readonly HttpClient _httpClient;
         private readonly IMapper _mapper;
+        private readonly IDistributedCache _cache;
 
-        public CurrencyService(ICurrencyCacheRepository cacheRepository, ILogRepository logRepository, HttpClient httpClient, IMapper mapper)
+        public CurrencyService(ICurrencyCacheRepository cacheRepository, ILogRepository logRepository, HttpClient httpClient, IMapper mapper, IDistributedCache cache)
         {
             _cacheRepository = cacheRepository;
             _logRepository = logRepository;
             _httpClient = httpClient;
             _mapper = mapper;
+            _cache = cache;
         }
 
         public async Task<ConversionResponseDTO> ConvertCurrency(ConversionRequestDTO request)
@@ -41,8 +44,8 @@ namespace CurrencyConverter.Services
                 var log = _mapper.Map<ConversionLog>(request);
                 log.ConvertedAmount = convertedAmount;
                 log.Timestamp = DateTime.UtcNow;
-
                 await _logRepository.AddLog(log);
+                await ClearCache();
                 ConversionResponseDTO response = _mapper.Map<ConversionResponseDTO>(log);
                 response.Rate = cacheRate.Value;
                 return response;
@@ -95,5 +98,20 @@ namespace CurrencyConverter.Services
                 throw new ApplicationException(ex.Message);
             }
         }
+
+        public async Task ClearCache()
+        {
+            string[] ranges = { "7d", "30d" };
+            int[] topNs = { 5, 10 };
+
+            foreach (var range in ranges)
+            {
+                foreach (var topN in topNs)
+                {
+                    await _cache.RemoveAsync($"TopConversions_{topN}_{range}");
+                }
+            }
+        }
+
     }
 }

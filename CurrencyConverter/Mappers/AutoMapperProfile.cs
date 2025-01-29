@@ -8,10 +8,11 @@ namespace CurrencyConverter.Mappers
     {
         public AutoMapperProfile() {
             CreateMap<ConversionRequestDTO, ConversionLog>();
-
-
             CreateMap<ConversionLog, ConversionResponseDTO>()
                 .ForMember(dest => dest.Rate, opt => opt.Ignore());
+
+
+            CreateMap<TopConversionReport, TopConversionReportDTO>();
         }
     }
 }

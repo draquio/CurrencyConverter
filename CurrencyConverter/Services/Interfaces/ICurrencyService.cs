@@ -7,6 +7,6 @@ namespace CurrencyConverter.Services.Interfaces
     {
         Task<ConversionResponseDTO> ConvertCurrency(ConversionRequestDTO request);
         List<Currency> GetAllCurrencies();
-
+        Task ClearCache();
     }
 }

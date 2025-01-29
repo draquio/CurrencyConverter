@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "E:\\Net\\CurrencyConverter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|e:\\net\\currencyconverter\\currencyconverter\\repositories\\currencycacherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|solutionrelative:currencyconverter\\repositories\\currencycacherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|e:\\net\\currencyconverter\\currencyconverter\\services\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|solutionrelative:currencyconverter\\services\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|e:\\net\\currencyconverter\\currencyconverter\\controllers\\currencyconvertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C9EA480-7B70-45F2-97BA-9A37021E0938}|CurrencyConverter\\CurrencyConverter.csproj|solutionrelative:currencyconverter\\controllers\\currencyconvertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CurrencyCacheRepository.cs",
-              "DocumentMoniker": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\Repositories\\CurrencyCacheRepository.cs",
-              "RelativeDocumentMoniker": "CurrencyConverter\\Repositories\\CurrencyCacheRepository.cs",
-              "ToolTip": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\Repositories\\CurrencyCacheRepository.cs",
-              "RelativeToolTip": "CurrencyConverter\\Repositories\\CurrencyCacheRepository.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T20:41:43.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "CurrencyService.cs",
               "DocumentMoniker": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\Services\\CurrencyService.cs",
               "RelativeDocumentMoniker": "CurrencyConverter\\Services\\CurrencyService.cs",
               "ToolTip": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\Services\\CurrencyService.cs",
               "RelativeToolTip": "CurrencyConverter\\Services\\CurrencyService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAYwFcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T20:41:33.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CurrencyConverterController.cs",
-              "DocumentMoniker": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\Controllers\\CurrencyConverterController.cs",
-              "RelativeDocumentMoniker": "CurrencyConverter\\Controllers\\CurrencyConverterController.cs",
-              "ToolTip": "E:\\Net\\CurrencyConverter\\CurrencyConverter\\Controllers\\CurrencyConverterController.cs",
-              "RelativeToolTip": "CurrencyConverter\\Controllers\\CurrencyConverterController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowB8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T20:36:19.535Z",
+              "WhenOpened": "2025-01-29T22:49:10.578Z",
               "EditorCaption": ""
             }
           ]

@@ -27,24 +27,30 @@ namespace CurrencyConverter.Repositories
             }
         }
 
-        public async Task<List<ConversionLog>> GetTopConversions(int Ntop)
+        public async Task<List<TopConversionReport>> GetTopConversions(int Ntop, string range)
         {
             try
             {
-                List<ConversionLog> conversionLogs = await _dbContext.Set<ConversionLog>()
+                DateTime start = range switch
+                {
+                    "30d" => DateTime.Now.AddDays(-30),
+                    _ => DateTime.Now.AddDays(-7),
+                };
+               List<TopConversionReport> topConversionReport = await _dbContext.Set<ConversionLog>()
+                    .Where(log => log.Timestamp >= start)
                     .GroupBy(log => new { log.FromCurrency, log.ToCurrency })
-                    .Select(group => new ConversionLog
+                    .Select(group => new TopConversionReport
                     {
                         FromCurrency = group.Key.FromCurrency,
                         ToCurrency = group.Key.ToCurrency,
-                        Amount = group.Sum(x => x.Amount),
-                        ConvertedAmount = group.Sum(x => x.ConvertedAmount),
-                        Timestamp = group.Max(x => x.Timestamp),
+                        ConversionCount = group.Count(),
+                        TotalAmount = group.Sum(x => x.Amount),
+                        Range = range
                     })
-                    .OrderByDescending(log => log.Amount)
+                    .OrderByDescending(report => report.ConversionCount)
                     .Take(Ntop)
                     .ToListAsync();
-                return conversionLogs;
+                return topConversionReport;
             }
             catch
             {
